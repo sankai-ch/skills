@@ -1,6 +1,8 @@
 ---
 name: job-hunter
 description: "多渠道招聘信息检索Skill。当用户提出找工作、求职、社招、招聘信息查询等需求时使用。支持从主流招聘平台（BOSS直聘、猎聘、智联招聘、51job、牛客网等）和各大公司官网招聘页面并行获取岗位信息，自动去重并输出结构化对比表格。典型触发语句：帮我找Java开发工作、北京朝阳区有哪些公司在招后端、附近有没有岗位招聘。"
+author: sankai-ch
+repository: https://github.com/sankai-ch/skills
 agent_created: true
 ---
 
