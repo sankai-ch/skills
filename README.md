@@ -27,38 +27,23 @@ skills/
 
 ---
 
-## 快速开始
+## 安装
 
-### 克隆仓库
+**对你的 AI 编程助手说一句话即可完成安装：**
 
-```bash
-git clone https://github.com/sankai-ch/skills.git
-cd skills
+### 安装全部 SKILL
+
+```
+帮我安装 https://github.com/sankai-ch/skills 仓库中的所有 SKILL
 ```
 
-将 SKILL 复制或链接到你所使用的 AI 编程助手对应目录，以 `job-hunter` 为例：
+### 安装单个 SKILL
 
-```bash
-# 复制
-cp -r job-hunter ~/.claude/skills/          # Claude Code
-cp -r job-hunter ~/.codex/skills/           # Codex CLI
-cp -r job-hunter ~/.gemini/skills/          # Gemini CLI
-cp -r job-hunter ~/.config/opencode/skills/ # OpenCode
-cp -r job-hunter ~/.cursor/skills/          # Cursor
-
-# 或使用符号链接（源仓库更新后自动同步）
-ln -s $(pwd)/job-hunter ~/.claude/skills/job-hunter
-ln -s $(pwd)/job-hunter ~/.gemini/skills/job-hunter
+```
+帮我安装 https://github.com/sankai-ch/skills 中的 job-hunter SKILL
 ```
 
-### 下载单个 SKILL
-
-```bash
-# 以 job-hunter 为例，替换 <target-dir> 为目标平台 SKILL 目录
-svn export https://github.com/sankai-ch/skills/trunk/job-hunter <target-dir> --force
-```
-
-> 也可通过 GitHub 网页进入对应 SKILL 文件夹，点击 **「Code」→「Download ZIP」** 下载整个仓库后提取所需 SKILL。
+AI 会自动完成仓库克隆、SKILL 目录复制到对应平台路径的全部操作。支持 Claude Code、Codex CLI、Gemini CLI、OpenCode、Cursor 等主流 AI 编程助手。
 
 ---
 
